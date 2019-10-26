@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AD9EF0B2365122200E52712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9EF0A2365122200E52712 /* AppDelegate.swift */; };
+		8AD9EF0D2365122200E52712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9EF0C2365122200E52712 /* ViewController.swift */; };
+		8AD9EF102365122200E52712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9EF0E2365122200E52712 /* Main.storyboard */; };
+		8AD9EF132365122200E52712 /* pushNotificationsRemotly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9EF112365122200E52712 /* pushNotificationsRemotly.xcdatamodeld */; };
+		8AD9EF152365122400E52712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9EF142365122400E52712 /* Assets.xcassets */; };
+		8AD9EF182365122400E52712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9EF162365122400E52712 /* LaunchScreen.storyboard */; };
+		8AD9EF232365122400E52712 /* pushNotificationsRemotlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9EF222365122400E52712 /* pushNotificationsRemotlyTests.swift */; };
+		8AD9EF2E2365122400E52712 /* pushNotificationsRemotlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9EF2D2365122400E52712 /* pushNotificationsRemotlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AD9EF1F2365122400E52712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD9EEFF2365122200E52712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD9EF062365122200E52712;
+			remoteInfo = pushNotificationsRemotly;
+		};
+		8AD9EF2A2365122400E52712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD9EEFF2365122200E52712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD9EF062365122200E52712;
+			remoteInfo = pushNotificationsRemotly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AD9EF072365122200E52712 /* pushNotificationsRemotly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushNotificationsRemotly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD9EF0A2365122200E52712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AD9EF0C2365122200E52712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AD9EF0F2365122200E52712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AD9EF122365122200E52712 /* pushNotificationsRemotly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pushNotificationsRemotly.xcdatamodel; sourceTree = "<group>"; };
+		8AD9EF142365122400E52712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AD9EF172365122400E52712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AD9EF192365122400E52712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD9EF1E2365122400E52712 /* pushNotificationsRemotlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushNotificationsRemotlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD9EF222365122400E52712 /* pushNotificationsRemotlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushNotificationsRemotlyTests.swift; sourceTree = "<group>"; };
+		8AD9EF242365122400E52712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD9EF292365122400E52712 /* pushNotificationsRemotlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushNotificationsRemotlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD9EF2D2365122400E52712 /* pushNotificationsRemotlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushNotificationsRemotlyUITests.swift; sourceTree = "<group>"; };
+		8AD9EF2F2365122400E52712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD9EF042365122200E52712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF1B2365122400E52712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF262365122400E52712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AD9EEFE2365122200E52712 = {
+			isa = PBXGroup;
+			children = (
+				8AD9EF092365122200E52712 /* pushNotificationsRemotly */,
+				8AD9EF212365122400E52712 /* pushNotificationsRemotlyTests */,
+				8AD9EF2C2365122400E52712 /* pushNotificationsRemotlyUITests */,
+				8AD9EF082365122200E52712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AD9EF082365122200E52712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD9EF072365122200E52712 /* pushNotificationsRemotly.app */,
+				8AD9EF1E2365122400E52712 /* pushNotificationsRemotlyTests.xctest */,
+				8AD9EF292365122400E52712 /* pushNotificationsRemotlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AD9EF092365122200E52712 /* pushNotificationsRemotly */ = {
+			isa = PBXGroup;
+			children = (
+				8AD9EF0A2365122200E52712 /* AppDelegate.swift */,
+				8AD9EF0C2365122200E52712 /* ViewController.swift */,
+				8AD9EF0E2365122200E52712 /* Main.storyboard */,
+				8AD9EF142365122400E52712 /* Assets.xcassets */,
+				8AD9EF162365122400E52712 /* LaunchScreen.storyboard */,
+				8AD9EF192365122400E52712 /* Info.plist */,
+				8AD9EF112365122200E52712 /* pushNotificationsRemotly.xcdatamodeld */,
+			);
+			path = pushNotificationsRemotly;
+			sourceTree = "<group>";
+		};
+		8AD9EF212365122400E52712 /* pushNotificationsRemotlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AD9EF222365122400E52712 /* pushNotificationsRemotlyTests.swift */,
+				8AD9EF242365122400E52712 /* Info.plist */,
+			);
+			path = pushNotificationsRemotlyTests;
+			sourceTree = "<group>";
+		};
+		8AD9EF2C2365122400E52712 /* pushNotificationsRemotlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AD9EF2D2365122400E52712 /* pushNotificationsRemotlyUITests.swift */,
+				8AD9EF2F2365122400E52712 /* Info.plist */,
+			);
+			path = pushNotificationsRemotlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AD9EF062365122200E52712 /* pushNotificationsRemotly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD9EF322365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotly" */;
+			buildPhases = (
+				8AD9EF032365122200E52712 /* Sources */,
+				8AD9EF042365122200E52712 /* Frameworks */,
+				8AD9EF052365122200E52712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pushNotificationsRemotly;
+			productName = pushNotificationsRemotly;
+			productReference = 8AD9EF072365122200E52712 /* pushNotificationsRemotly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AD9EF1D2365122400E52712 /* pushNotificationsRemotlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD9EF352365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotlyTests" */;
+			buildPhases = (
+				8AD9EF1A2365122400E52712 /* Sources */,
+				8AD9EF1B2365122400E52712 /* Frameworks */,
+				8AD9EF1C2365122400E52712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD9EF202365122400E52712 /* PBXTargetDependency */,
+			);
+			name = pushNotificationsRemotlyTests;
+			productName = pushNotificationsRemotlyTests;
+			productReference = 8AD9EF1E2365122400E52712 /* pushNotificationsRemotlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AD9EF282365122400E52712 /* pushNotificationsRemotlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD9EF382365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotlyUITests" */;
+			buildPhases = (
+				8AD9EF252365122400E52712 /* Sources */,
+				8AD9EF262365122400E52712 /* Frameworks */,
+				8AD9EF272365122400E52712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD9EF2B2365122400E52712 /* PBXTargetDependency */,
+			);
+			name = pushNotificationsRemotlyUITests;
+			productName = pushNotificationsRemotlyUITests;
+			productReference = 8AD9EF292365122400E52712 /* pushNotificationsRemotlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AD9EEFF2365122200E52712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = edu.data;
+				TargetAttributes = {
+					8AD9EF062365122200E52712 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8AD9EF1D2365122400E52712 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8AD9EF062365122200E52712;
+					};
+					8AD9EF282365122400E52712 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8AD9EF062365122200E52712;
+					};
+				};
+			};
+			buildConfigurationList = 8AD9EF022365122200E52712 /* Build configuration list for PBXProject "pushNotificationsRemotly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AD9EEFE2365122200E52712;
+			productRefGroup = 8AD9EF082365122200E52712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AD9EF062365122200E52712 /* pushNotificationsRemotly */,
+				8AD9EF1D2365122400E52712 /* pushNotificationsRemotlyTests */,
+				8AD9EF282365122400E52712 /* pushNotificationsRemotlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AD9EF052365122200E52712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9EF182365122400E52712 /* LaunchScreen.storyboard in Resources */,
+				8AD9EF152365122400E52712 /* Assets.xcassets in Resources */,
+				8AD9EF102365122200E52712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF1C2365122400E52712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF272365122400E52712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD9EF032365122200E52712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9EF0D2365122200E52712 /* ViewController.swift in Sources */,
+				8AD9EF0B2365122200E52712 /* AppDelegate.swift in Sources */,
+				8AD9EF132365122200E52712 /* pushNotificationsRemotly.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF1A2365122400E52712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9EF232365122400E52712 /* pushNotificationsRemotlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD9EF252365122400E52712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9EF2E2365122400E52712 /* pushNotificationsRemotlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AD9EF202365122400E52712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD9EF062365122200E52712 /* pushNotificationsRemotly */;
+			targetProxy = 8AD9EF1F2365122400E52712 /* PBXContainerItemProxy */;
+		};
+		8AD9EF2B2365122400E52712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD9EF062365122200E52712 /* pushNotificationsRemotly */;
+			targetProxy = 8AD9EF2A2365122400E52712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AD9EF0E2365122200E52712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD9EF0F2365122200E52712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AD9EF162365122400E52712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD9EF172365122400E52712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AD9EF302365122400E52712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AD9EF312365122400E52712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AD9EF332365122400E52712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AD9EF342365122400E52712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AD9EF362365122400E52712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pushNotificationsRemotly.app/pushNotificationsRemotly";
+			};
+			name = Debug;
+		};
+		8AD9EF372365122400E52712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pushNotificationsRemotly.app/pushNotificationsRemotly";
+			};
+			name = Release;
+		};
+		8AD9EF392365122400E52712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pushNotificationsRemotly;
+			};
+			name = Debug;
+		};
+		8AD9EF3A2365122400E52712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pushNotificationsRemotlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FCI.pushNotificationsRemotlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pushNotificationsRemotly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AD9EF022365122200E52712 /* Build configuration list for PBXProject "pushNotificationsRemotly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD9EF302365122400E52712 /* Debug */,
+				8AD9EF312365122400E52712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD9EF322365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD9EF332365122400E52712 /* Debug */,
+				8AD9EF342365122400E52712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD9EF352365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD9EF362365122400E52712 /* Debug */,
+				8AD9EF372365122400E52712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD9EF382365122400E52712 /* Build configuration list for PBXNativeTarget "pushNotificationsRemotlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD9EF392365122400E52712 /* Debug */,
+				8AD9EF3A2365122400E52712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AD9EF112365122200E52712 /* pushNotificationsRemotly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AD9EF122365122200E52712 /* pushNotificationsRemotly.xcdatamodel */,
+			);
+			currentVersion = 8AD9EF122365122200E52712 /* pushNotificationsRemotly.xcdatamodel */;
+			path = pushNotificationsRemotly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AD9EEFF2365122200E52712 /* Project object */;
+}
